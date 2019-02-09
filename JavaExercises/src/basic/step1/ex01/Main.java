@@ -15,7 +15,17 @@ public class Main {
 		int sum = 0;
 		//---------------------------------------
 		// TODO : Write code below
+		/* normal way - using for */
+		for(int i = from ; i <= to ; i++) {
+			if( i%3 == 0 || i%5 == 0 ) sum = sum + i;
+		}
 		
+		/* [the other solution - using while]
+		int num = from;
+		do {
+			if( num%3 == 0 || num%5 == 0 ) sum += num;
+		}while(num++ < to);
+		*/
 		//---------------------------------------
 		return sum;
 	}
