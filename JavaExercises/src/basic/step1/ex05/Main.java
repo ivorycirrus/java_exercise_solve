@@ -12,7 +12,17 @@ public class Main {
 		//---------------------------------------
 		// TODO : Write code below
 		
-		System.out.println("*");
+		for(int i = 1 ; i <= N ; i++) {
+			String line = "";
+			for(int j = N ; j > 0 ; j--) {
+				if(j <= i) {
+					line += "*";
+				} else {
+					line += " ";
+				}
+			}
+			System.out.println(line);
+		}
 		
 		//---------------------------------------
 	}
