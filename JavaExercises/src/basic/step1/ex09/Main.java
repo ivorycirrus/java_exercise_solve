@@ -20,9 +20,6 @@ public class Main {
 		//    - Draw upside of figure, and append bottom side which mirrored its top side
 		//    - If line length is odd, also add intersection once.
 		
-		// number of layers
-		int layers = (N-1) % 4;
-		
 		// half length of line (for using duplicate)
 		int half = (N+1)/2;
 		
