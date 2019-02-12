@@ -12,7 +12,22 @@ public class Main {
 		//---------------------------------------
 		// TODO : Write code below
 		
-		System.out.println("*");
+		// index of edge
+		int edge = N-1;
+		
+		for(int i = 0 ; i < N ; i++) {
+			String line = "";
+			for(int j = 0 ; j < N ; j++) {
+				if( i % edge == 0 || j % edge == 0) {
+					// draw border
+					line += "*";
+				} else {
+					// empty inside of square
+					line += " ";
+				}
+			}
+			System.out.println(line);
+		}
 		
 		//---------------------------------------
 	}
