@@ -15,6 +15,9 @@
 ### Step 2
 **배열을 다루는 연습을 한다**
 * [[Ex01] 배열의 합](src/basic/step2/ex01)
+* [[Ex02] 거리구하기 1](src/basic/step2/ex02)
+* [[Ex03] 전치행렬](src/basic/step2/ex03)
+* [[Ex04] 배열의 회전](src/basic/step2/ex04)
 
 ### Step 3
 **문자열을 다루는 연습을 한다**
