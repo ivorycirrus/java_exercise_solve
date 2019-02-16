@@ -37,7 +37,19 @@ public class Main {
 		//---------------------------------------
 		// TODO : Write code here
 		
-		return A;
+		// Solve concept
+		//   i-th row == reverse of i-th colulm
+		
+		int SIZE = A.length;
+		int[][] R = new int[SIZE][SIZE];
+		
+		for(int i = 0 ; i < SIZE ; i++) {
+			for (int j = 0; j < SIZE; j++) {
+				R[i][j] = A[SIZE - 1 - j][i];
+			}
+		}
+				
+		return R;
 		
 		//---------------------------------------
 	}
