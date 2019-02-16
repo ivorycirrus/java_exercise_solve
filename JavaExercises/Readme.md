@@ -19,4 +19,3 @@
 ### Step 3
 **문자열을 다루는 연습을 한다**
 * [[Ex01] 369 게임](src/basic/step3/ex01)
-* [[Ex02] 윤년 계산](src/basic/step1/ex02)
