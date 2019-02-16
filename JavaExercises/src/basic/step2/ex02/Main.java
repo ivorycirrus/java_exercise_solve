@@ -26,6 +26,10 @@ public class Main {
 		//---------------------------------------
 		// TODO : Write code here
 		
+		for(int i = 0 ; i < dist.length ; i++)
+			for(int j = 0 ; j < dist.length ; j++)
+				dist[i][j] = i+j;
+		
 		//---------------------------------------
 		
 		return dist;
