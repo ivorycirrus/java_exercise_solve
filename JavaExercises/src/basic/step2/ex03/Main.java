@@ -35,7 +35,21 @@ public class Main {
 		//---------------------------------------
 		// TODO : Write code here
 		
-		return A;
+		// Original array
+		int Rows = A.length;
+		int Cols = A[0].length;
+		
+		// Transposed array
+		int[][] T = new int[Cols][Rows];
+		
+		// Find transpose
+		for(int i = 0 ; i < Rows ; i++) {
+			for (int j = 0; j < Cols; j++) {
+				T[j][i] = A[i][j];
+			}
+		}
+		
+		return T;
 		
 		//---------------------------------------
 	}
