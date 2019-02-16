@@ -17,7 +17,15 @@ public class Main {
 		//---------------------------------------
 		// TODO : Write code below
 		
-		return 0;
+		int sum = 0;
+		
+		for(int i = 0 ; i < N.length ; i++) {
+			for(int j = 0 ; j < N[i].length ; j++) {
+				sum += N[i][j];
+			}
+		}
+		
+		return sum;
 		
 		//---------------------------------------
 	}
