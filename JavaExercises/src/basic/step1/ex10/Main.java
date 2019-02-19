@@ -19,7 +19,18 @@ public class Main {
 		//---------------------------------------
 		// TODO : Write code below		
 		
-		System.out.println("");
+		for(int i = 0 ; i <= rows ; i++) {
+			String line = "";
+			for (int j = 0; j <= cols; j++) {
+				int r,c;
+				
+				if( i == 0 ) r = 0; else if( i == rows ) r = 2; else r = 1;
+				if( j == 0 ) c = 0; else if( j == cols ) c = 2; else c = 1;
+				
+				line += EDGE[r][c];
+			}
+			System.out.println(line);
+		}
 		
 		//---------------------------------------
 	}
